@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>exercise 8 annoy-o-matic loops</title>
+</head>
+<body>
+  <script>
+    // var answer = prompt("Are we there yet?")
+    // while (answer !== "yes" && answer !== "yeah") {
+    //   var answer = prompt("Are we there yet?")
+    // }
+    // alert("YAY, we made it!!")
+
+//Version 2
+var answer = prompt("Are we there yet?")
+while (answer.indexOf("yes") === -1){
+//betyder at ordet yes ikke er i svaret --> mere komplexe svar
+  var answer = prompt("Are we there yet?")
+}
+alert("YAY, we made it!!")
+
+
+
+  </script>
+
+</body>
+</html>
